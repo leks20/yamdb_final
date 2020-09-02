@@ -8,7 +8,7 @@ on:
 
 jobs:
   tests:
-    name: Checking the code with the PEP8 and running the test
+    name: Checking with the PEP8 and running the test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
