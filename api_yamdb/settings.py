@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 load_dotenv(os.path.join(BASE_DIR, '.env'))
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'z!+4n+s%r=&z+r6v0-!_$@uger)@%$fm@)4w*x12ecw0z+%!@8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
