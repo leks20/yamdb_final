@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': django.db.backends.postgresql 
+        'ENGINE': 'django.db.backends.postgresql' 
         'NAME': os.getenv('DB_DATABASE'),
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
