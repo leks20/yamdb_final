@@ -1,11 +1,8 @@
 name: Run test and push to DockerHub
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+  [push]
+  
 jobs:
   tests:
     name: Checking with the PEP8 and running the test
