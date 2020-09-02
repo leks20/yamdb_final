@@ -1,7 +1,6 @@
 name: Run test and push to DockerHub
 
-on:
-  [push]
+on: [push]
   
 jobs:
   tests:
